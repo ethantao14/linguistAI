@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.recordButton, .playbackButton {
+    cursor: pointer;
+    border: none;
+    background-color: transparent;
+    padding: 10px;
+    font-size: 1.5em;
+}
+
+.recordButton:hover, .playbackButton:hover {
+    color: #007bff; /* Change hover color here */
+}
+
+table {
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
+    /*border: 1px solid #151313; !* Just for visualization *!*/
+    /**/
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: wh #151313;
+}
+
+/* Corrected selectors assuming you're targeting HTML elements */
+th, td {
+    text-align: center;
+    vertical-align: middle;
+    /*border: 1px solid #070707; !* Just for visualization *!*/
+    /**/
+    -fx-border-width: 1px;
+    -fx-border-style: solid;
+    -fx-border-color: wh #070707;
+}
+
+button:focus {
+    outline: none;
+    /*box-shadow: 0 0 5px rgba(150, 174, 199, 0.56);*/
+
+    -fx-border-width: 2px;
+    -fx-border-style: solid;
+    -fx-border-color: rgba(150, 174, 199, 0.56);
+}
+
+button {
+    margin-right: 10px;
+}
+
+i.fas {
+    font-size: 24px;
+    color: #501515;
+}
+
+button.recordButton, .button.playbackButton {
+    margin: 5px; /* This will add a margin of 5px on all sides of the button */
+}
+
+/*th {*/
+/*    padding: 0;*/
+/*    margin: 0;*
+/*}*/
+
+.column-header .label {
+    -fx-background-color: white;
+    -fx-padding: 3px 3px;
+}
